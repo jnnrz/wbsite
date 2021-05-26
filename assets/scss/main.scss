@@ -1,0 +1,18 @@
+﻿@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+@import "fonts";
+@import "utils";
+
+* {
+  font-family: ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+}
+
+html {
+  @apply text-gray-600;
+  @apply font-medium;
+  font-size: 15px;
+}

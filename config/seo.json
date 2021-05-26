@@ -1,0 +1,10 @@
+﻿{
+  "title": "Title",
+  "titleTemplate": "TemplateTitle",
+  "description": "Description",
+  "twitter": {
+    "handle": "",
+    "site": "",
+    "cardType": "summary_large_image"
+  }
+}
