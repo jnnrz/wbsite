@@ -1,11 +1,4 @@
-﻿import { FC, useState } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import {
-  XIcon,
-  BellIcon,
-  MenuIcon,
-  ChevronRightIcon,
-} from "@heroicons/react/outline";
+﻿import { FC } from "react";
 import cn from "classnames";
 import s from "./hero.module.scss";
 import { Button } from "@components/index";
