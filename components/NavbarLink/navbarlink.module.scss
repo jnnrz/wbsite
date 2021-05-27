@@ -1,0 +1,11 @@
+﻿.root {
+  @apply text-gray-800 text-center;
+
+  a {
+    @apply p-2 md:p-0 block rounded-lg md:rounded-none md:border-b-4 md:border-white mt-1;
+
+    &:hover {
+      @apply bg-blue-600 text-white md:bg-white md:text-gray-800 md:border-b-4 md:border-blue-600;
+    }
+  }
+}
