@@ -8,6 +8,8 @@
     "start": "next start -p $PORT"
   },
   "dependencies": {
+    "@headlessui/react": "^1.2.0",
+    "@heroicons/react": "^1.0.1",
     "classnames": "^2.3.1",
     "next": "^10.1.1",
     "next-seo": "^4.23.0",
