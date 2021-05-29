@@ -16,7 +16,7 @@ const Navbar: FC<Props> = ({ className }): JSX.Element => {
   return (
     <Popover className={classNames}>
       {({ open }) => (
-        <Container className="xl:px-48">
+        <Container>
           <div className="flex justify-between items-center">
             <div className="text-3xl text-black">
               Logirijillo<span className="text-blue-500">.</span>

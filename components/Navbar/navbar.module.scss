@@ -1,9 +1,9 @@
 ﻿.root {
-  @apply py-4 sticky w-full px-4 flex items-center bg-white relative;
+  @apply sticky top-0 py-4 w-full px-4 flex items-center bg-white z-50;
 }
 
 .links {
-  @apply hidden md:flex space-x-8;
+  @apply hidden md:flex space-x-8 font-semibold;
 }
 
 .mobileNav {
