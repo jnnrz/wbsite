@@ -8,7 +8,7 @@ interface Props {
 }
 
 const Container: FC<Props> = ({ className, children, clean }) => {
-  const classNames = cn(className, "container mx-auto");
+  const classNames = cn(className, "container mx-auto max-w-5xl");
 
   return <div className={classNames}>{children}</div>;
 };
